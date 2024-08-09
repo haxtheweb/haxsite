@@ -21,7 +21,9 @@
     "@haxtheweb/haxcms-nodejs": "^9.0.5"
   },
   "scripts": {
-    "start": "npx @haxtheweb/haxcms-nodejs",
-    "dev-theme": "cd custom && yarn start"
+    "start": "npm run dev",
+    "ghpages:build": "rm dist && rm assets/babel* && rm build && rm node_modules && rm wc-registry.json",
+    "dev": "npx @haxtheweb/haxcms-nodejs",
+    "dev-theme": "cd custom && npm start"
   }
 }
