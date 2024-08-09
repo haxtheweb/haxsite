@@ -78,15 +78,15 @@
       "indent": 0,
       "location": "pages/item-5488fd2d-2976-4bf3-9925-ebae7a26b8ef/index.html",
       "slug": "page",
-      "order": 2,
+      "order": 1,
       "parent": null,
-      "title": "The end",
-      "description": "",
+      "title": "Page",
+      "description": "\n\n",
       "metadata": {
         "created": 1723216766,
-        "updated": 1723216821,
-        "images": [],
-        "videos": [],
+        "updated": 1723216848,
+        "images": {},
+        "videos": {},
         "published": true,
         "locked": false,
         "status": "",
@@ -99,7 +99,9 @@
             "name": "449209895_10132275882878874_6858206363295672221_n.jpg",
             "size": 45592
           }
-        ]
+        ],
+        "hideInMenu": false,
+        "readtime": 1
       }
     },
     {
