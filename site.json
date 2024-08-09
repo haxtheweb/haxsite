@@ -71,6 +71,22 @@
         "videos": {},
         "images": {}
       }
+    },
+    {
+      "id": "item-5488fd2d-2976-4bf3-9925-ebae7a26b8ef",
+      "indent": 0,
+      "location": "pages/item-5488fd2d-2976-4bf3-9925-ebae7a26b8ef/index.html",
+      "slug": "page",
+      "order": 1,
+      "parent": null,
+      "title": "Page",
+      "description": "",
+      "metadata": {
+        "created": 1723216766,
+        "updated": 1723216766,
+        "images": [],
+        "videos": []
+      }
     }
   ]
 }
