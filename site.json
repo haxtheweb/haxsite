@@ -89,7 +89,17 @@
         "videos": [],
         "published": true,
         "locked": false,
-        "status": ""
+        "status": "",
+        "files": [
+          {
+            "path": "[object Object]449209895_10132275882878874_6858206363295672221_n.jpg",
+            "fullUrl": "//home/haxtheweb/haxsite/files/449209895_10132275882878874_6858206363295672221_n.jpg",
+            "url": "files/449209895_10132275882878874_6858206363295672221_n.jpg",
+            "type": "image/jpeg",
+            "name": "449209895_10132275882878874_6858206363295672221_n.jpg",
+            "size": 45592
+          }
+        ]
       }
     },
     {
