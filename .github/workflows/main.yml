@@ -31,5 +31,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: $GITHUB_BASE_REF # The branch the action should deploy to.
+          BRANCH: ${{ env.GITHUB_BASE_REF }} # The branch the action should deploy to.
           FOLDER: ./ # The folder the action should deploy.
