@@ -15,13 +15,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "resolutions": {
-  },
-  "devDependencies": {
-    "@haxtheweb/haxcms-nodejs": "^9.0.5"
-  },
   "scripts": {
     "start": "npm run dev",
+    "ghpages:build": "rm assets/babel* && rm build && rm wc-registry.json",
     "dev": "npx @haxtheweb/haxcms-nodejs",
     "dev-theme": "cd custom && npm start"
   }
