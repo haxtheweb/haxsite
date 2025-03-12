@@ -74,29 +74,12 @@
       }
     },
     {
-      "id": "item-72a5228c-d0bd-4b96-a124-f64e18dea25a",
-      "indent": 0,
-      "location": "pages/item-72a5228c-d0bd-4b96-a124-f64e18dea25a/index.html",
-      "slug": "lesson-1",
-      "order": 1,
-      "parent": null,
-      "title": "Lesson 1",
-      "description": "",
-      "metadata": {
-        "locked": false,
-        "created": 1723216821,
-        "images": [],
-        "videos": [],
-        "updated": 1723216821
-      }
-    },
-    {
       "id": "item-52e57103-e309-4136-8c2e-fbb29983a013",
       "indent": 1,
       "location": "pages/item-52e57103-e309-4136-8c2e-fbb29983a013/index.html",
       "slug": "lesson-1/introduction",
-      "order": 0,
-      "parent": "item-72a5228c-d0bd-4b96-a124-f64e18dea25a",
+      "order": 1,
+      "parent": null,
       "title": "Introduction",
       "description": "",
       "metadata": {
