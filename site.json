@@ -72,23 +72,6 @@
         "images": {},
         "status": ""
       }
-    },
-    {
-      "id": "item-52e57103-e309-4136-8c2e-fbb29983a013",
-      "indent": 1,
-      "location": "pages/item-52e57103-e309-4136-8c2e-fbb29983a013/index.html",
-      "slug": "lesson-1/introduction",
-      "order": 1,
-      "parent": null,
-      "title": "Introduction",
-      "description": "",
-      "metadata": {
-        "locked": false,
-        "created": 1723216821,
-        "images": [],
-        "videos": [],
-        "updated": 1723216821
-      }
     }
   ]
 }
