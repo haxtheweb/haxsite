@@ -1,5 +1,9 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    # deploys publish to gh-pages, so only run for main; a push to any other
+    # branch (e.g. a PR branch) must not publish unreviewed content
+    branches: [main]
 jobs:
   build-and-deploy:
     permissions:
@@ -35,5 +39,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.base_ref }} # The branch the action should deploy to.
-          folder: ./ # The folder the action should deploy.
+          branch: gh-pages # The branch the action should deploy to. (github.base_ref is only set on pull_request events, so it is empty on push)
+          folder: . # The folder the action should deploy. Must be '.' for the repo root: './' is not treated as the workspace root, so the action's temp deploy folder is not excluded from rsync and --delete removes files rsync is still copying (exit code 24)
