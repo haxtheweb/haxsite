@@ -15,7 +15,28 @@
 'use strict';
 
 // [path, content hash] for the shell files; the hashes version the shell cache
-var shellFiles = [["index.html","YvtM70SoDXwpoKBQStIe_hIrt1b9x6UmoAoUc9dE3ck"],["site.json","YGTvu3Fsj7cHLqIm5BHNKrF01GtJvfBPksNaHcGdMIE"],["manifest.json","IYaujbx1X18hw8GcxrhQa87QfWANnXggtxR4muZpYw"],["offline.html","z9Fyc9T06UJ6tU1gx4KSp5w4cZ82i3wfutOTIIph63U"],["assets/icon-192x192.png","EcnlN6ctJkwmmpRGcDlhsOkWe1BBYB0v1wG6TxuvqlY"]];
+var shellFiles = [
+    [
+        "index.html",
+        "WERkJmSyIdsqOZ4opGSkJYSariR0KPie7odomd4gCeU"
+    ],
+    [
+        "site.json",
+        "YGTvu3Fsj7cHLqIm5BHNKrF01GtJvfBPksNaHcGdMIE"
+    ],
+    [
+        "manifest.json",
+        "IYaujbx1X18hw8GcxrhQa87QfWANnXggtxR4muZpYw"
+    ],
+    [
+        "offline.html",
+        "z9Fyc9T06UJ6tU1gx4KSp5w4cZ82i3wfutOTIIph63U"
+    ],
+    [
+        "assets/icon-192x192.png",
+        "EcnlN6ctJkwmmpRGcDlhsOkWe1BBYB0v1wG6TxuvqlY"
+    ]
+];
 
 function hashString(value) {
   var hash = 5381;
